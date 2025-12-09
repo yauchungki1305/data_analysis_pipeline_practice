@@ -1,6 +1,7 @@
 import click
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 @click.command()
 @click.option('--input_file', type=str, help = 'Path (including filename) to data file')
